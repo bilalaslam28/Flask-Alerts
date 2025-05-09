@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-DISCORD_WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1370127800169795736/TgH7BR0oAwfMomT1p9w6ZaMvyrX-fqekO1RN01plnijD1M-vRHpSlP8MIhyEA9US0zXI")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 def format_tv_time(raw_time):
     try:
